@@ -91,3 +91,41 @@ footer {
   color: #888;
   font-size: 0.9rem;
 }
+
+@media (max-width: 768px) {
+  header {
+    padding: 1.5rem 0;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  .menu-section {
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .menu-section h2 {
+    font-size: 1.3rem;
+  }
+
+  li {
+    font-size: 1rem;
+    padding: 0.4rem 0;
+  }
+
+  .parallax {
+    height: 200px;
+    background-attachment: scroll; /* Фікс для мобільних */
+  }
+
+  footer {
+    font-size: 0.8rem;
+    padding: 0.8rem;
+  }
+}
